@@ -138,6 +138,7 @@ defaults:
       dynamic_title: true    # Hide title in mobile screens.
 
 sass:
+  sass_dir: /assets/css
   style: compressed
 
 compress_html:
@@ -147,7 +148,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs: []
 
 exclude:
   - vendor
